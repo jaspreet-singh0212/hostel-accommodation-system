@@ -1,0 +1,58 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+*{
+	padding: 0;
+	margin: 0;
+	background-color: #fff;
+	margin-left: 5px;
+}
+.btn{
+	position: absolute;
+	top: 75%;
+	left: 10%;
+	transform: translate(-50%, -50%);
+	background: #e74c3c;
+	font-size: 18px;
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+#box{
+	width: 800px;
+	height: 70px;
+	overflow: hidden;
+	background: #f1f1f1;
+	box-shadow: 0 0 20px black;
+	border-radius: 8px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	z-index: 9999;
+	padding: 10px;
+	text-align: center;
+	display: none;
+}
+#box h1{
+	color: #333;
+}
+.close{
+	font-size: 14px;
+	color: white;
+	padding: 7px 15px;
+	cursor: pointer;
+	background: #3498db;
+	display: inline-block;
+	border-radius: 4px;
+}
+#p2
+{
+	margin-left: 600px;
+	margin-top: 40px;
+}
+#p1
+{
+	margin-top: 70px;
+}
+.de{
+  transition-delay: 5s;
+}

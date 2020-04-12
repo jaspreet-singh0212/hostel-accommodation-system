@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body>
+	<h3 align="center">LOVELY PROFESSIONAL UNIVERSITY</h3>
+	<h5 align="center">(A STATE UNIVERSITY ESTABLISHED IN 2005
+		jalandhar-delhi G.T Road,Phagwara Punjab 144411)
+		</h5>
+		<h1 align="center">HOSTEL ALLOTMENT REQUEST FORM</h1>
+		<p align="center">(fill in capital letters only)</p>
+		<p>Room No_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _(To be affliated by the office)<br><br>
+		<table cellpadding="10">
+			<tr>
+				<td>First Name:</td>
+				<td><input type="text" id="name" name="name" placeholder="First Name"></td>
+			</tr>
+			<tr>
+				<td>Last Name:</td>
+				<td><input type="text" id="name" name="name" placeholder="Last Name"></td>
+			</tr>
+			<tr>
+				<td>Father's Name:</td>
+				<td><input type="text" id="name" name="name" placeholder="Father's Name"></td>
+			</tr>
+			<tr>
+				<td>Date of Birth:</td>
+				<td><input type="date" id="name" name="DOB" placeholder="DD/MM/YYYY"></td>
+			</tr>
+			<tr>
+				<td>Gender:</td>
+				<td><input type="radio" name="male">Male<input type="radio" name="male">Female<input type="radio" name="male">Others</td>
+			</tr>
+			<tr>
+				<td>Registration Number:</td>
+				<td><input type="number" id="name" name="RNO" placeholder="Reg_no"></td>
+			</tr>
+			<tr>
+				<td>E-mail:</td>
+				<td><input type="email" id="name" name="email" placeholder="E-mail"></td>
+			</tr>
+			<tr>
+				<td>Mobile Number:</td>
+				<td><input type="number" id="name" name="MNUM" placeholder="+91-**********"></td>
+			</tr>
+			<tr>
+				<td>Address:</td>
+				<td><textarea rows="6" cols="25" placeholder="Address"></textarea></td>
+			</tr>
+			<tr>
+				<td>City:</td>
+				<td><input type="text" id="name" name="city" placeholder="City"></td>
+			</tr>
+			<tr>
+				<td>State:</td>
+				<td><input type="text" id="name" name="state" placeholder="State"></td>
+			</tr>
+			<tr>
+				<td>Country:</td>
+				<td><input type="text" id="name" name="country" placeholder="Country"></td>
+			</tr>
+			<tr>
+				<td>Pincode:</td>
+				<td><input type="number" id="name" name="num" placeholder="Pincode"></td>
+			</tr>
+			<tr>
+				<td>Course:</td>
+				<td><input type="text" id="name" name="course" placeholder="Name of Course"></td>
+			</tr>
+			<tr>
+				<td>Field:</td>
+				<td><input type="text" id="name" name="field" placeholder="Field of Course"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="checkbox" name="box">WE HEREBY STATE THAT ALL THE ABOVE INFORMATION IS TRUE TO THE BEST OF YOUR KNOWLEDGE.</td>
+			</tr>
+			</table>
+	
+		<a onclick="pop()" class="btn">Submit</a>
+
+		<div id="box">
+			<h1>!!Registered Successfully!!</h1>
+			<a href="home.html" class="close">Close</a>
+		</div>
+
+
+<p id="p1">
+	<h3>Note:Documents to produce at the time of Hostel Room allotment</h3>
+	1.RESIDENTIAL ADDRESS PROOF(Ration card/Water Bill/Electricity Bill etc)<br>
+	2.COPY OF PARENT'S IDENTITY CARD HAVING PHOTO AND SIGNATURE.<br>
+	3.COPY OF MEDICAL CERTIFICATE/TRANSFER ORDER(in case applying on medical ground)/Transfer order.</p>
+
+	<script>
+		var c=0;
+		function pop(){
+			if(c==0){
+				document.getElementById('box').style.display = "block";
+				c=1;
+			}
+		}
+	</script>
+</body>
+</html>
